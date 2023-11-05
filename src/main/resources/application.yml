@@ -1,0 +1,12 @@
+server:
+  port: 8001
+
+spring:
+  profiles:
+    active: local
+  application:
+    name: websocket-stomp-example
+  freemarker:
+    suffix: .html
+  mvc:
+    static-path-pattern: /static/**
